@@ -1,6 +1,7 @@
 .quarto/
 _output/
-uio-*
+*.pdf
+*.png
 
 /.quarto/
 **/*.quarto_ipynb
