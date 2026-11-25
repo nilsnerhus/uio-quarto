@@ -1,0 +1,19 @@
+---
+title: "Coverless output regression test"
+author: "Ada Lovelace"
+cover: false
+abstract: "Checks that cover-specific geometry does not affect interior pages."
+toc: true
+lang: en
+bibliography: []
+format:
+  uio-paper-typst: default
+---
+
+# First section
+
+Body text starts on the first page with the regular interior margins.
+
+## Nested section
+
+The table of contents and section headings should render normally.

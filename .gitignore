@@ -1,0 +1,16 @@
+.quarto/
+/template.pdf
+/template.typ
+/uio-fp-navn-bm.png
+/uio-fp-navn-nn.png
+/uio-fp-navn-eng.pdf
+/uio-fp-segl.pdf
+/tests/*.pdf
+/tests/*.typ
+/tests/uio-fp-navn-bm.png
+/tests/uio-fp-navn-nn.png
+/tests/uio-fp-navn-eng.pdf
+/tests/uio-fp-segl.pdf
+
+/.quarto/
+**/*.quarto_ipynb
