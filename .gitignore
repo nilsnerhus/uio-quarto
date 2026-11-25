@@ -1,7 +1,5 @@
 .quarto/
 _output/
-*.pdf
-*.png
 
 /.quarto/
 **/*.quarto_ipynb
