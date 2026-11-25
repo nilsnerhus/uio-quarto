@@ -1,6 +1,6 @@
 # UiO-Quarto
 
-Hei! Denne Quarto-utvidelsen er for deg som skal skrive en semester-, bachelor- eller masteroppgave på UiO i Quarto og vil ha en rask og grei `pdf`-fil når du er ferdig. Prosjektet starta som et forsøk på å oversette [LaTeX-malen til UiO](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/), men alle feil er mine.
+Hei! Denne Quarto-utvidelsen er for deg som skal skrive en semester-, bachelor- eller masteroppgave på UiO i Quarto og vil ha en rask og grei `pdf`-fil når du er ferdig. Prosjektet starta som et forsøk på å oversette [LaTeX-malen til UiO](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/), men alle feil og avvik fra den er mine.
 
 ## INSTALLASJON
 
@@ -19,9 +19,7 @@ format:
 
 ## INNSTILLINGER
 
-Hvis lister ikke er din greie, så er det også et eksempeldokument i mappa som du heller kan se på.
-
-Alle instillingene er yaml frontmatter-verdier, der noen er standard-verdier fra Quarto og derfor på engelsk:
+Hvis lister ikke er din greie, så er det også et [eksempeldokument](eksempel.qmd) i mappa som du heller kan se på. Alle instillingene er yaml frontmatter-verdier, der noen er standard-verdier fra Quarto og derfor på engelsk:
 
 | Key             | Value                 | Forklaring                           |
 | --------------- | --------------------- | ------------------------------------ |
