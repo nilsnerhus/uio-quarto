@@ -1,5 +1,5 @@
 project:
   type: default
-
+  output-dir: _output
 format:
   uio-paper-typst: default

@@ -1,14 +1,13 @@
 ---
 title: "Et eksempel på en UiO-grå oppgave"
-subtitle: "En mal for artikler, rapporter og oppgaver"
+subtitle: "En rask og ryddig mal for oppgaver"
 author:
   - "Nora Nordmann"
   - "Ola Olsen"
-document_type: "Semesteroppgave"
-program: "Studieprogram"
-department: "Institutt for eksempelstudier"
-faculty: "Det samfunnsvitenskapelige fakultet"
-date: today
+oppgave: "Eksempeloppgave"
+emne: "EKS1000 – Grunnleggende eksempler"
+institutt: "Institutt for eksempelstudier"
+fakultet: "Det samfunnsvitenskapelige fakultet"
 lang: nb
 format:
   uio-paper-typst: default
@@ -16,14 +15,12 @@ format:
 
 ## INNLEDNING
 
-Dette eksempeldokumentet viser hvordan malen kan brukes til ulike typer
-tekster. Opplysninger om tittel, forfattere og tilhørighet hentes fra YAML
-front matter, mens selve teksten skrives som vanlig Quarto Markdown.
+Dette eksempeldokumentet viser hvordan malen kan brukes til ulike typer tekster. Opplysninger om tittel, forfattere og tilhørighet hentes fra
+YAML-frontmatter, mens selve teksten skrives som vanlig Quarto Markdown.
 
 ### EN UNDERTITTEL
 
-Malen viderefører typografien og sidetallene fra forsiden. Den støtter
-vanlige Quarto-funksjoner som fotnoter, referanser, tabeller og figurer.
+Malen viderefører typografien og sidetallene fra forsiden. Den støtter vanlige Quarto-funksjoner som fotnoter, referanser, tabeller og figurer.
 
 | Felt    | Verdi             |
 | :------ | :---------------- |
@@ -32,6 +29,4 @@ vanlige Quarto-funksjoner som fotnoter, referanser, tabeller og figurer.
 
 ## AVSLUTNING
 
-Bruk `document_type` for å endre merkelappen på forsiden, for eksempel til
-`Bacheloroppgave`, `Masteroppgave` eller `Fagartikkel`. Sett `cover: false`
-for dokumenter der du ønsker å bruke samme innvendige oppsett uten forside.
+Bruk `oppgave` for teksten i den mørke boksen på forsiden. Feltene `emne`, `institutt` og `fakultet` er valgfrie. Sett `forside: false` dersom dokumentet skal begynne direkte med oppgaveteksten.
