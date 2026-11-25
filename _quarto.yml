@@ -1,5 +1,6 @@
 project:
   type: default
   output-dir: _output
+citeproc: true
 format:
-  uio-paper-typst: default
+  uio-paper-typst:
