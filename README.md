@@ -1,13 +1,13 @@
-# UiO-Quarto
+# UiO-QUARTO
 
-Hei! Denne Quarto-utvidelsen er for deg som skal skrive en semester-, bachelor- eller masteroppgave på UiO i Quarto og vil ha en rask og grei `pdf`-fil når du er ferdig. Prosjektet starta som et forsøk på å oversette [LaTeX-malen til UiO](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/), men alle feil og avvik fra den er mine.
+Denne Quarto-utvidelsen er for deg som skal skrive en semester-, bachelor- eller masteroppgave på UiO i Quarto og vil ha en rask og grei `pdf`-fil når du er ferdig. Prosjektet starta som et forsøk på å oversette [LaTeX-malen til UiO](https://www.mn.uio.no/ifi/tjenester/it/hjelp/latex/), men alle feil og avvik fra den er mine.
 
 ## INSTALLASJON
 
 Du installerer utvidelsen i prosjektet ditt ved å gjøre dette:
 
 ```sh
-quarto add nilsnerhus/uio-paper
+quarto add nilsnerhus/uio-quarto
 ```
 
 Når du har gjort det må du velge det øverst i Quarto-fila di, som dette:
